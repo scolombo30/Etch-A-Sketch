@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+    </style>
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <h1>Etch-A-Sketch</h1>
-    <div class="containerControls">
-        <div class="controls">
-            <button id="clear">Clear</button>
-            <button id="random">Random</button>
-            <button id="reset">Reset</button>
+    <div class="container">
+        <div class="controlsBorder">
+            <div class="containerControls">
+                <div class="controls">
+                    <button id="clear">Clear</button>
+                    <input type="color" id="colorChooser" name="color" value="#000000">
+                    <button id="reset">Reset color</button>
+                </div>
+                <div>Choose a size:</div>
+                <div class="controls">
+                    <button id="small">Small</button>
+                    <button id="medium">Medium</button>
+                    <button id="large">Large</button>
+                </div>
+            </div>
         </div>
-        <div class="controls">
-            <button id="size-small">Small</button>
-            <button id="size-medium">Medium</button>
-            <button id="size-large">Large</button>
+        <div class="sketchBorder">
+            <h1 class="title">Etch-A-Sketch</h1>
+            <div class="containerGrid"></div>
         </div>
-    </div>
-    <div class="containerGrid">
-       
     </div>
 </body>
 </html>
