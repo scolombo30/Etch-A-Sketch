@@ -4,7 +4,7 @@ This is a project for the OdinProject web-dev course
 Live example at: https://scolombo30.github.io/Etch-A-Sketch/
 
 <p>The main part of the project is the "drawing board" made with square divs tha change background color when the mouse hover on them.</p>
-<img src="img/etch_a_sketch_1.png">
+<img src="img/etch_a_sketch_1.png" width="300px">
 
 <p>The other important part if the control center, where you can change the grid size, the color, clear the board and reset the color</p>
 <img src="img/etch_a_sketch_2.png">
